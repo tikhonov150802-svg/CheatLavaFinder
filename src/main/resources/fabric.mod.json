@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chestlavafinder",
+  "version": "${version}",
+  "name": "Chest & Lava Finder",
+  "description": "Подсветка сундуков сквозь блоки и поиск лавовых озёр в верхнем мире.",
+  "authors": ["rtikhonov"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rtikhonov.chestlavafinder.ChestLavaFinderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
